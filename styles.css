@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-decoration-color: none;
+    color: black;
+}
+.header {
+    background: white;
+    display: flex;
+    margin-left: 200px;
+    background-image: none;
+}
+.dog{
+    padding: 19px;
+    font-size: 17px;
+    justify-content: flex-start;
+}
+.ulglav{
+    display: flex;
+    width: 403px;
+    justify-content: space-between;
+    margin-left: 250px;
+}
+.liglav{
+    color: black;
+    font-size: 16px;
+    padding: 19px;
+    list-style-type: none;
+
+}
+.conteiner1{
+    display: flex;
+}
+.divcopilot{
+
+}
+.pcopilot{
+    width: 300px;
+    height: 100px;
+    margin-left: 15%;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 70px;
+    line-height: 70px;
+
+    color: #27272A;
+}
+.knopki{
+    display: flex;
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    padding: 19px;
+    justify-content: flex-start;
+}
+.buynow{
+    border: 2px solid #d47a03;
+    background: #d47a03;
+    transition: 1s;
+    color: #ffffff;
+    border-radius: 25px;
+    box-sizing: border-box;
+    
+
+}
+.seedetails{
+    box-sizing: border-box;
+    background: white;
+    width: 150px;
+    height: 200px;
+    border: 2px solid #ffffff;
+    
+    border-radius: 20px;
+    text-align: center;
+    color: #d47a03;
+
+}
+.mops{
+    justify-items: center;
+}
+.imgmops{
+    width: 610px;
+    height: 516px;
+    margin-left: 500px;
+}
+.opisanie{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+}
+.card{
+
+}
+.cardimg{
+    width: 52px;
+    height: 52px;
+    display: block;
+    margin: auto;
+}
+.h2{
+    text-align: center;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #18181B;
+}
+.p{
+    
+    width: 269px;
+    height: 72px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #27272A;
+}
+.seedetailstwo{
+    box-sizing: border-box;
+    background: white;
+    width: 300px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    color: #d47a03;
+    margin-left: 100px;
+}
+.opisanie{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+    
+}
+
+.cardimg2{
+    width: 50px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    background-color: rgb(204, 117, 3);
+}
+.card2{
+   
+}
+.findout {
+    margin-top: 100px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.findout__h1 {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #18181B;
+}
+
+.findout__container {
+    display: flex;
+}
+
+.findout__block {
+    margin-bottom: 40px; 
+    padding: 20px;
+}
+
+.findout__img {
+    border-radius: 10%;
+    width: 320px;
+    height: 240px;
+}
+
+.findout__info {
+    display: flex;
+    margin-left: 10px;
+}
+
+.findout__letter {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 12px;
+    background-color: #BDFFEB;
+    color: #18181B;
+    padding: 10px;
+}
+
+.findout__date {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #18181B;
+    padding: 15px;
+
+}
+
+.findout__h2 {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #18181B;
+}
+.findout__p {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #18181B;
+}
+#footer {
+        background-color: #000000;
+        text-align: center;
+        padding: 5% 10% 5%;
+        color: hsl(0, 0%, 100%);
+      }
+      
+      .footer-icons {
+        padding: 2% 1%;
+      }
+    footer #top-footer .right-footer{
+        display: flex;
+        width: 70%;
+        justify-content: space-around;
+    }
+.left-footer{
+    color: #000000;
+}
+@media (max-width: 1440px){
+    header .crice{
+        top: 650px;
+    }
+    header .title div img{
+        width: 15%;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 1000px){
+    header .crice{
+        display: none;
+        background-color: #828282;
+    }
+    header .title div img{
+        width: 17%;
+        margin-top: 5px;
+    }
+    .icons{
+        width: 90%;
+    }
+}
